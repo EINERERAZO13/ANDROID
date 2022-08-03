@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InicioActivity">
+    <ImageView
+        android:id="@+id/logo"
+        android:src="@drawable/logo"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/txtCuadrado"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registroapicultor"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-black"
+        />
+
+    <EditText
+        android:id="@+id/edttipoidentificacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/tipo_identificacion"
+        android:inputType="number"
+        android:layout_gravity="left"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        />
+
+    <EditText
+        android:id="@+id/edtbase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/identificacion"
+        android:inputType="number"
+        android:layout_gravity="left"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        />
+
+
+    <EditText
+        android:id="@+id/edtrazon_social"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/razon_social"
+        android:inputType="text"
+        android:layout_gravity="left"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        />
+    <EditText
+        android:id="@+id/edtemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:inputType="text"
+        android:layout_gravity="left"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        />
+    <EditText
+        android:id="@+id/telefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/telefono"
+        android:inputType="number"
+        android:layout_gravity="left"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        />
+    <EditText
+        android:id="@+id/recidencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/recidencia"
+        android:inputType="number"
+        android:layout_gravity="left"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        />
+    <EditText
+        android:id="@+id/edtcontraseña_registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/contraseña_registro"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"/>
+    <EditText
+        android:id="@+id/edtconfirmar_contraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/confirmar_contraseña"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"/>
+
+
+    <Button
+        android:id="@+id/btningresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registrarme"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+
+        />
+
+
+
+
+
+</LinearLayout>

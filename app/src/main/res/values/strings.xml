@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">BeeApp</string>
+    <string name="titulo1">REGISTRO</string>
+    <string name="titulo2">BEEAPP</string>
+    <string name="titulo3">RECTANGULO</string>
+    <string name="titulo4">Iniciar sesion</string>
+    <string name="titulo5">CALCULAR</string>
+    <string name="titulolargo">Digite el Largo</string>
+    <string name="tituloancho">Digite el ancho</string>
+    <string name="resultado">EL RESULTADO ES:</string>
+    <string name="lado1">DIGITE EL LADO 1</string>
+    <string name="base">USUARIO</string>
+    <string name="altura">CONTRASEÑA</string>
+    <string name="registroapicultor">REGISTRO APICULTOR</string>
+    <string name="INGRESAR">Iniciar sesion</string>
+    <string name="identificacion">Identificacion</string>
+    <string name="registro">REGISTRO</string>
+    <string name="olvido_contraseña">Olvide mi contraseña</string>
+    <string name="siguiente">Olvide mi contraseña</string>
+    <string name="razon_social">Razon social</string>
+    <string name="email">correo electronico</string>
+    <string name="telefono">telefono</string>
+    <string name="recidencia">Direccion</string>
+    <string name="direccion">Direccion / vereda</string>
+    <string name="tipo_identificacion">Tipo de identificacion</string>
+    <string name="contraseña_registro">Contraseña</string>
+    <string name="confirmar_contraseña">Confirmar</string>
+    <string name="registrarme">REGISTRARME</string>
+
+
+
+</resources>
